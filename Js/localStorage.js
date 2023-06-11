@@ -26,3 +26,15 @@ document.getElementById('addAge').addEventListener('click', function () {
 document.getElementById('removeName').addEventListener('click', function () {
     localStorage.removeItem('name');
 })
+
+//Remove age from local storage 
+
+document.getElementById('removeAge').addEventListener('click', function () {
+    localStorage.removeItem('Age');
+})
+
+//all data clear 
+
+document.getElementById('all-clear').addEventListener('click', function () {
+    localStorage.clear();
+})
